@@ -26,5 +26,4 @@ class TestCSVPrinter(unittest.TestCase):
             printer = CSVPrinter('sample3.csv')
             line = printer.read()
             print(line)
-        #print("error")
 
